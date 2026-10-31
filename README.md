@@ -26,12 +26,7 @@ Mission 1: Навигация по папкам (`cd` и `ls`)
 Задача: Подняться на вершину башни замка
 Использованные команды: `cd`, `ls`
 Решение:
- cd Castle
- cd Main_tower
- cd First_floor
- cd Second_floor
- cd Top_of_the_tower
- gsh check
+ 
 <img width="485" height="638" alt="миссия1" src="https://github.com/user-attachments/assets/654a9ef5-7afa-4bde-a64a-a339ba21f9de" />
 
 
