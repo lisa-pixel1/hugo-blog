@@ -3,3 +3,4 @@ locale = 'en-us'
 title = 'My New Hugo Project'
 theme = 'ananke'
 relativeURLs = true
+canonifyURLs = true
