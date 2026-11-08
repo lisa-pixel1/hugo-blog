@@ -1,4 +1,4 @@
-baseURL = 'https://lisa-pixel1.github.io/hugo-blog/'
+baseURL = "https://lisa-pixel1.github.io/hugo-blog/"
 languageCode = 'ru-ru'
 title = 'pixel.'
 theme = 'ananke'
