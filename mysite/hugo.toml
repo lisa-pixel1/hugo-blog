@@ -1,6 +1,6 @@
 baseURL = 'https://lisa-pixel1.github.io/hugo-blog/'
-locale = 'en-us'
-title = 'My New Hugo Project'
+languageCode = 'ru-ru'
+title = 'Отчёт по практическим занятиям'
 theme = 'ananke'
 relativeURLs = true
 canonifyURLs = true
