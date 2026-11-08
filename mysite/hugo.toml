@@ -2,5 +2,17 @@ baseURL = 'https://lisa-pixel1.github.io/hugo-blog/'
 languageCode = 'ru-ru'
 title = 'Отчёт по практическим занятиям'
 theme = 'ananke'
-relativeURLs = true
-canonifyURLs = true
+[[menus.main]]
+name = "Главная"
+pageRef = "/"
+weight = 1
+
+[[menus.main]]
+name = "Врайтапы"
+pageRef = "/writeups"
+weight = 2
+
+[[menus.main]]
+name = "Посты"
+pageRef = "/posts"
+weight = 3
