@@ -1,6 +1,6 @@
 baseURL = 'https://lisa-pixel1.github.io/hugo-blog/'
 languageCode = 'ru-ru'
-title = 'Отчёт по практическим занятиям'
+title = 'pixel.'
 theme = 'ananke'
 [[menus.main]]
 name = "Главная"
@@ -16,3 +16,6 @@ weight = 2
 name = "Посты"
 pageRef = "/posts"
 weight = 3
+
+[params.ananke]
+custom_css = ["css/custom.css"]

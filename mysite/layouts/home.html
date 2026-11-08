@@ -1,0 +1,25 @@
+{{ define "main" }}
+<section class="home-hero">
+  <span class="hero-label">PIXEL · УЧЕБНОЕ ПОРТФОЛИО</span>
+  <h1>{{ .Title }}</h1>
+  <p class="hero-subtitle">{{ .Description }}</p>
+  <div class="hero-decoration"></div>
+  <div class="hero-text">{{ .Content }}</div>
+</section>
+
+<section class="home-sections">
+  <a class="home-card" href="{{ "writeups/" | relURL }}">
+    <span class="card-number">01</span>
+    <h2>Врайтапы</h2>
+    <p>Решения заданий, практические работы и разборы интересных задач.</p>
+    <span class="card-link">Смотреть работы →</span>
+  </a>
+
+  <a class="home-card" href="{{ "posts/" | relURL }}">
+    <span class="card-number">02</span>
+    <h2>Посты</h2>
+    <p>Личные заметки о процессе обучения и работе над проектами.</p>
+    <span class="card-link">Читать записи →</span>
+  </a>
+</section>
+{{ end }}

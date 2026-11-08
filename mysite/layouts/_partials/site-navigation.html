@@ -1,0 +1,13 @@
+<nav class="site-navigation" role="navigation">
+  <a href="{{ .Site.Home.RelPermalink }}" class="site-logo">pixel.</a>
+
+  {{ if .Site.Menus.main }}
+    <ul class="site-menu">
+      {{ range .Site.Menus.main }}
+        <li>
+          <a href="{{ .URL }}">{{ .Name }}</a>
+        </li>
+      {{ end }}
+    </ul>
+  {{ end }}
+</nav>
